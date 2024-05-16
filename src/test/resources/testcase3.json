@@ -1,0 +1,16 @@
+{
+  "customer": {
+    "id": "CUST123",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1122334455",
+    "address": {
+      "street": "789 Elm St",
+      "city": "Somewhere",
+      "state": "TX",
+      "postal_code": "67890",
+      "country": "USA"
+    },
+    "orders": []
+  }
+}

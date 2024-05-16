@@ -1,0 +1,40 @@
+{
+  "customer": {
+    "id": "CUST123",
+    "name": "Eve Evans",
+    "email": "eve.evans@example.com",
+    "phone": "+1122334455",
+    "address": {
+      "street": "123 Elm St",
+      "city": "Anywhere",
+      "state": "CA",
+      "postal_code": "54321",
+      "country": "USA"
+    },
+    "orders": [
+      {
+        "order_id": "ORDER004",
+        "order_date": "2024-05-01T09:00:00",
+        "products": [
+          {
+            "product_id": "PROD004",
+            "name": "Doohickey",
+            "price": 40.00,
+            "quantity": 4
+          }
+        ],
+        "total_amount": 160.00,
+        "payment": {
+          "method": "Credit Card",
+          "amount_paid": 160.00,
+          "transaction_id": "TRANS004",
+          "payment_date": "2024-05-01T10:00:00"
+        },
+        "tracking_info": {
+          "created_date": "2024-05-01T09:00:00",
+          "created_by": "admin"
+        }
+      }
+    ]
+  }
+}

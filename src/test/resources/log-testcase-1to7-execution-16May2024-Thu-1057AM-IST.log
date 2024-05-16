@@ -1,0 +1,115 @@
+/Users/raghavan.muthu/.sdkman/candidates/java/17.0.6-tem/bin/java -ea -Didea.test.cyclic.buffer.size=10485760 -javaagent:/Users/raghavan.muthu/Applications/IntelliJ IDEA Ultimate.app/Contents/lib/idea_rt.jar=60294:/Users/raghavan.muthu/Applications/IntelliJ IDEA Ultimate.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/raghavan.muthu/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:/Users/raghavan.muthu/Applications/IntelliJ IDEA Ultimate.app/Contents/lib/idea_rt.jar:/Users/raghavan.muthu/Applications/IntelliJ IDEA Ultimate.app/Contents/plugins/junit/lib/junit5-rt.jar:/Users/raghavan.muthu/Applications/IntelliJ IDEA Ultimate.app/Contents/plugins/junit/lib/junit-rt.jar:/Users/raghavan.muthu/raghs/prfsnl/github-repos/JavaDomainObjDifference/target/test-classes:/Users/raghavan.muthu/raghs/prfsnl/github-repos/JavaDomainObjDifference/target/classes:/Users/raghavan.muthu/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.5/spring-boot-starter-3.2.5.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/boot/spring-boot/3.2.5/spring-boot-3.2.5.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/spring-context/6.1.6/spring-context-6.1.6.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/spring-aop/6.1.6/spring-aop-6.1.6.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/spring-beans/6.1.6/spring-beans-6.1.6.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/spring-expression/6.1.6/spring-expression-6.1.6.jar:/Users/raghavan.muthu/.m2/repository/io/micrometer/micrometer-observation/1.12.5/micrometer-observation-1.12.5.jar:/Users/raghavan.muthu/.m2/repository/io/micrometer/micrometer-commons/1.12.5/micrometer-commons-1.12.5.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.5/spring-boot-autoconfigure-3.2.5.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.5/spring-boot-starter-logging-3.2.5.jar:/Users/raghavan.muthu/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/Users/raghavan.muthu/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/Users/raghavan.muthu/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/Users/raghavan.muthu/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/raghavan.muthu/.m2/repository/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13.jar:/Users/raghavan.muthu/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/spring-core/6.1.6/spring-core-6.1.6.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/spring-jcl/6.1.6/spring-jcl-6.1.6.jar:/Users/raghavan.muthu/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/raghavan.muthu/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/raghavan.muthu/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/raghavan.muthu/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/raghavan.muthu/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/raghavan.muthu/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/raghavan.muthu/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/raghavan.muthu/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/raghavan.muthu/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/raghavan.muthu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar:/Users/raghavan.muthu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar:/Users/raghavan.muthu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.5/spring-boot-starter-test-3.2.5.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/boot/spring-boot-test/3.2.5/spring-boot-test-3.2.5.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.5/spring-boot-test-autoconfigure-3.2.5.jar:/Users/raghavan.muthu/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/raghavan.muthu/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/raghavan.muthu/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/Users/raghavan.muthu/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/Users/raghavan.muthu/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/raghavan.muthu/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/raghavan.muthu/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/raghavan.muthu/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/raghavan.muthu/.m2/repository/net/bytebuddy/byte-buddy/1.14.13/byte-buddy-1.14.13.jar:/Users/raghavan.muthu/.m2/repository/org/awaitility/awaitility/4.2.1/awaitility-4.2.1.jar:/Users/raghavan.muthu/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/raghavan.muthu/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/raghavan.muthu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/raghavan.muthu/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/raghavan.muthu/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/raghavan.muthu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/raghavan.muthu/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/raghavan.muthu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/raghavan.muthu/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/raghavan.muthu/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar:/Users/raghavan.muthu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.13/byte-buddy-agent-1.14.13.jar:/Users/raghavan.muthu/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/raghavan.muthu/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar:/Users/raghavan.muthu/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/raghavan.muthu/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/raghavan.muthu/.m2/repository/org/springframework/spring-test/6.1.6/spring-test-6.1.6.jar:/Users/raghavan.muthu/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 com.raghsonline.javadomainobjdifference.JsonDifferenceServiceTest
+10:56:55.583 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.raghsonline.javadomainobjdifference.JsonDifferenceServiceTest]: JsonDifferenceServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:56:55.630 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.raghsonline.javadomainobjdifference.JavaDomainObjDifferenceApplication for test class com.raghsonline.javadomainobjdifference.JsonDifferenceServiceTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-16T10:56:55.764+05:30  INFO 45926 --- [JavaDomainObjDifference] [           main] c.r.j.JsonDifferenceServiceTest          : Starting JsonDifferenceServiceTest using Java 17.0.6 with PID 45926 (started by raghavan.muthu in /Users/raghavan.muthu/raghs/prfsnl/github-repos/JavaDomainObjDifference)
+2024-05-16T10:56:55.765+05:30  INFO 45926 --- [JavaDomainObjDifference] [           main] c.r.j.JsonDifferenceServiceTest          : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T10:56:56.035+05:30  INFO 45926 --- [JavaDomainObjDifference] [           main] c.r.j.JsonDifferenceServiceTest          : Started JsonDifferenceServiceTest in 0.356 seconds (process running for 0.777)
+
+-------------------------------------
+[# 0] Comparing differences between testcase1.json and testcase2.json:
+-------------------------------------
+Differences found:
+Change(changeType=CHANGE, componentName=customer.name, fieldName=null, currentValue="Jane Smith", previousValue="John Doe")
+Change(changeType=CHANGE, componentName=customer.email, fieldName=null, currentValue="jane.smith@example.com", previousValue="john.doe@example.com")
+Change(changeType=CHANGE, componentName=customer.phone, fieldName=null, currentValue="+9876543210", previousValue="+1234567890")
+Change(changeType=CHANGE, componentName=customer.address.street, fieldName=null, currentValue="456 Oak St", previousValue="123 Main St")
+Change(changeType=CHANGE, componentName=customer.address.city, fieldName=null, currentValue="Otherville", previousValue="Anytown")
+Change(changeType=CHANGE, componentName=customer.address.state, fieldName=null, currentValue="CA", previousValue="NY")
+Change(changeType=CHANGE, componentName=customer.address.postal_code, fieldName=null, currentValue="54321", previousValue="12345")
+Change(changeType=CHANGE, componentName=customer.orders[0].order_id, fieldName=null, currentValue="ORDER002", previousValue="ORDER001")
+Change(changeType=CHANGE, componentName=customer.orders[0].order_date, fieldName=null, currentValue="2024-02-01T09:00:00", previousValue="2024-01-01T09:00:00")
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].product_id, fieldName=null, currentValue="PROD002", previousValue="PROD001")
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].name, fieldName=null, currentValue="Gadget", previousValue="Widget")
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].price, fieldName=null, currentValue=20.0, previousValue=10.0)
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].quantity, fieldName=null, currentValue=2, previousValue=1)
+Change(changeType=CHANGE, componentName=customer.orders[0].total_amount, fieldName=null, currentValue=40.0, previousValue=10.0)
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.method, fieldName=null, currentValue="PayPal", previousValue="Credit Card")
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.amount_paid, fieldName=null, currentValue=40.0, previousValue=10.0)
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.transaction_id, fieldName=null, currentValue="TRANS002", previousValue="TRANS001")
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.payment_date, fieldName=null, currentValue="2024-02-01T10:00:00", previousValue="2024-01-01T10:00:00")
+Change(changeType=CHANGE, componentName=customer.orders[0].tracking_info.created_date, fieldName=null, currentValue="2024-02-01T09:00:00", previousValue="2024-01-01T09:00:00")
+-------------------------------------
+
+
+-------------------------------------
+[# 1] Comparing differences between testcase2.json and testcase3.json:
+-------------------------------------
+Differences found:
+Change(changeType=CHANGE, componentName=customer.name, fieldName=null, currentValue="Alice Johnson", previousValue="Jane Smith")
+Change(changeType=CHANGE, componentName=customer.email, fieldName=null, currentValue="alice.johnson@example.com", previousValue="jane.smith@example.com")
+Change(changeType=CHANGE, componentName=customer.phone, fieldName=null, currentValue="+1122334455", previousValue="+9876543210")
+Change(changeType=CHANGE, componentName=customer.address.street, fieldName=null, currentValue="789 Elm St", previousValue="456 Oak St")
+Change(changeType=CHANGE, componentName=customer.address.city, fieldName=null, currentValue="Somewhere", previousValue="Otherville")
+Change(changeType=CHANGE, componentName=customer.address.state, fieldName=null, currentValue="TX", previousValue="CA")
+Change(changeType=CHANGE, componentName=customer.address.postal_code, fieldName=null, currentValue="67890", previousValue="54321")
+Change(changeType=REMOVED, componentName=customer.orders[0], fieldName=null, currentValue=null, previousValue={"order_id":"ORDER002","order_date":"2024-02-01T09:00:00","products":[{"product_id":"PROD002","name":"Gadget","price":20.0,"quantity":2}],"total_amount":40.0,"payment":{"method":"PayPal","amount_paid":40.0,"transaction_id":"TRANS002","payment_date":"2024-02-01T10:00:00"},"tracking_info":{"created_date":"2024-02-01T09:00:00","created_by":"admin"}})
+-------------------------------------
+
+
+-------------------------------------
+[# 2] Comparing differences between testcase3.json and testcase4.json:
+-------------------------------------
+Differences found:
+Change(changeType=CHANGE, componentName=customer.name, fieldName=null, currentValue="Bob Brown", previousValue="Alice Johnson")
+Change(changeType=CHANGE, componentName=customer.email, fieldName=null, currentValue="bob.brown@example.com", previousValue="alice.johnson@example.com")
+Change(changeType=CHANGE, componentName=customer.phone, fieldName=null, currentValue="+9988776655", previousValue="+1122334455")
+Change(changeType=CHANGE, componentName=customer.address.street, fieldName=null, currentValue="999 Pine St", previousValue="789 Elm St")
+Change(changeType=CHANGE, componentName=customer.address.city, fieldName=null, currentValue="Nowhere", previousValue="Somewhere")
+Change(changeType=CHANGE, componentName=customer.address.state, fieldName=null, currentValue="FL", previousValue="TX")
+Change(changeType=CHANGE, componentName=customer.address.postal_code, fieldName=null, currentValue="11223", previousValue="67890")
+Change(changeType=ADDED, componentName=customer.orders[0], fieldName=null, currentValue={"order_id":"ORDER003","order_date":"2024-04-01T09:00:00","products":[{"product_id":"PROD003","name":"Thingamabob","price":30.0,"quantity":3}],"total_amount":90.0,"payment":{"method":"Cash","amount_paid":90.0,"transaction_id":"TRANS003","payment_date":"2024-04-01T10:00:00"},"tracking_info":{"created_date":"2024-04-01T09:00:00","created_by":"admin"}}, previousValue=null)
+-------------------------------------
+
+
+-------------------------------------
+[# 3] Comparing differences between testcase4.json and testcase5.json:
+-------------------------------------
+Differences found:
+Change(changeType=CHANGE, componentName=customer.name, fieldName=null, currentValue="Eve Evans", previousValue="Bob Brown")
+Change(changeType=CHANGE, componentName=customer.email, fieldName=null, currentValue="eve.evans@example.com", previousValue="bob.brown@example.com")
+Change(changeType=CHANGE, componentName=customer.phone, fieldName=null, currentValue="+1122334455", previousValue="+9988776655")
+Change(changeType=CHANGE, componentName=customer.address.street, fieldName=null, currentValue="123 Elm St", previousValue="999 Pine St")
+Change(changeType=CHANGE, componentName=customer.address.city, fieldName=null, currentValue="Anywhere", previousValue="Nowhere")
+Change(changeType=CHANGE, componentName=customer.address.state, fieldName=null, currentValue="CA", previousValue="FL")
+Change(changeType=CHANGE, componentName=customer.address.postal_code, fieldName=null, currentValue="54321", previousValue="11223")
+Change(changeType=CHANGE, componentName=customer.orders[0].order_id, fieldName=null, currentValue="ORDER004", previousValue="ORDER003")
+Change(changeType=CHANGE, componentName=customer.orders[0].order_date, fieldName=null, currentValue="2024-05-01T09:00:00", previousValue="2024-04-01T09:00:00")
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].product_id, fieldName=null, currentValue="PROD004", previousValue="PROD003")
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].name, fieldName=null, currentValue="Doohickey", previousValue="Thingamabob")
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].price, fieldName=null, currentValue=40.0, previousValue=30.0)
+Change(changeType=CHANGE, componentName=customer.orders[0].products[0].quantity, fieldName=null, currentValue=4, previousValue=3)
+Change(changeType=CHANGE, componentName=customer.orders[0].total_amount, fieldName=null, currentValue=160.0, previousValue=90.0)
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.method, fieldName=null, currentValue="Credit Card", previousValue="Cash")
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.amount_paid, fieldName=null, currentValue=160.0, previousValue=90.0)
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.transaction_id, fieldName=null, currentValue="TRANS004", previousValue="TRANS003")
+Change(changeType=CHANGE, componentName=customer.orders[0].payment.payment_date, fieldName=null, currentValue="2024-05-01T10:00:00", previousValue="2024-04-01T10:00:00")
+Change(changeType=CHANGE, componentName=customer.orders[0].tracking_info.created_date, fieldName=null, currentValue="2024-05-01T09:00:00", previousValue="2024-04-01T09:00:00")
+-------------------------------------
+
+
+-------------------------------------
+[# 4] Comparing differences between testcase5.json and testcase6.json:
+-------------------------------------
+Differences found:
+Change(changeType=ADDED, componentName=customer.orders[1], fieldName=null, currentValue={"order_id":"ORDER005","order_date":"2024-05-02T10:00:00","products":[{"product_id":"PROD005","name":"Widget","price":15.0,"quantity":2}],"total_amount":30.0,"payment":{"method":"PayPal","amount_paid":30.0,"transaction_id":"TRANS005","payment_date":"2024-05-02T11:00:00"},"tracking_info":{"created_date":"2024-05-02T10:00:00","created_by":"admin"}}, previousValue=null)
+-------------------------------------
+
+
+-------------------------------------
+[# 5] Comparing differences between testcase6.json and testcase7.json:
+-------------------------------------
+Differences found:
+Change(changeType=REMOVED, componentName=customer.orders[1], fieldName=null, currentValue=null, previousValue={"order_id":"ORDER005","order_date":"2024-05-02T10:00:00","products":[{"product_id":"PROD005","name":"Widget","price":15.0,"quantity":2}],"total_amount":30.0,"payment":{"method":"PayPal","amount_paid":30.0,"transaction_id":"TRANS005","payment_date":"2024-05-02T11:00:00"},"tracking_info":{"created_date":"2024-05-02T10:00:00","created_by":"admin"}})
+-------------------------------------
+
+
+Process finished with exit code 0

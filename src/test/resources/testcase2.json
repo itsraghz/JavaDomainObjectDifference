@@ -1,0 +1,40 @@
+{
+  "customer": {
+    "id": "CUST123",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+9876543210",
+    "address": {
+      "street": "456 Oak St",
+      "city": "Otherville",
+      "state": "CA",
+      "postal_code": "54321",
+      "country": "USA"
+    },
+    "orders": [
+      {
+        "order_id": "ORDER002",
+        "order_date": "2024-02-01T09:00:00",
+        "products": [
+          {
+            "product_id": "PROD002",
+            "name": "Gadget",
+            "price": 20.00,
+            "quantity": 2
+          }
+        ],
+        "total_amount": 40.00,
+        "payment": {
+          "method": "PayPal",
+          "amount_paid": 40.00,
+          "transaction_id": "TRANS002",
+          "payment_date": "2024-02-01T10:00:00"
+        },
+        "tracking_info": {
+          "created_date": "2024-02-01T09:00:00",
+          "created_by": "admin"
+        }
+      }
+    ]
+  }
+}
