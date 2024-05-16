@@ -7,10 +7,7 @@ import com.raghsonline.javadomainobjdifference.ChangeType;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service
 public class JsonChangeDifferentService {
@@ -48,9 +45,9 @@ public class JsonChangeDifferentService {
             return;
         }
 
-        if (node1.isObject() && node2.isObject()) {
+        if (node1 != null && node1.isObject() && node2.isObject()) {
             handleObjects(node1, node2, path, changes);
-        } else if (node1.isArray() && node2.isArray()) {
+        } else if ((node1 != null && node1.isArray()) && node2.isArray()) {
             handleArrays(node1, node2, path, changes);
         } else {
             handleLeafNodes(node1, node2, path, changes);
